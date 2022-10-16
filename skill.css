@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'CRAMPS', sans-serif;
+                                                                                                
+}
+
+body{
+    box-sizing: border-box ;
+    margin: auto;
+    width: 1500px;
+    height: 900px;
+    border: 1px red solid;
+    background-color:lightblue ;
+}
+
+.wrapper{
+    display: flex;
+}
+.wrapper-header-footer{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 90%;
+}
+.header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 350px;
+    height: 90%;
+    background-color: rgb(94, 185, 114);
+}
+
+.myphoto{
+    width: 50px;
+    height: 100px;
+}
+.ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+.list-menu{
+    font-size: 32px;
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+    text-align: start;
+    cursor: pointer;
+    width: 275px;
+    height: 60px;
+    background-color: transparent;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.list-menu:hover{
+    transition: 2s;
+    background-color: blue;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.ghost{
+    width: 60px;
+}
+.myphoto{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    width: 1150px;
+    height: 899px;
+    background-color: pink;
+}
